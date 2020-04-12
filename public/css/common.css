@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+
+.c_navfeature {
+	position: fixed;
+	z-index: 997;
+}
+
+.c_hide {
+    display: none;
+}
+
+.c_base_toast {
+	border-radius: 10px;
+}
+.c_success_msg_toast {
+	background-color: #26a69a;
+	color: #fff;
+}
+.c_fail_msg_toast {
+	background-color: #000;
+	color: #ee6e73;
+}
+
+.material-icons.c_pink {
+	color: pink;
+}
+
+.progress.c_approach_top {
+	margin: .1rem 0 1rem 0;
+}
+
+.c_collection_visible {
+    overflow: visible;
+}
+
+.c_blockScrollTree {
+    height: 300px;
+    overflow: auto;
+    position: relative;
+}
+
